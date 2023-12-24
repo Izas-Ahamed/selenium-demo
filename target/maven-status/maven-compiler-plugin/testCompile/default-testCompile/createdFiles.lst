@@ -1,0 +1,17 @@
+com\qa\pages\BlogPage.class
+com\qa\testscripts\TC_Blogs_01.class
+com\qa\pages\HotelPage.class
+com\qa\testscripts\TC_Flight_01.class
+com\qa\pages\SignUpPages.class
+com\qa\testscripts\TC_Visa_01.class
+com\qa\testscripts\TC_Hotel_01.class
+com\qa\testscripts\TC_SignUp_01.class
+com\qa\pages\FlightPage.class
+com\qa\pages\LoginAndLogoutPages.class
+com\qa\testscripts\TC_LoginAndLogout_01.class
+com\qa\testscripts\TestBase.class
+com\qa\pages\VisaPage.class
+com\qa\testscripts\TC_Tours_01.class
+com\qa\utility\ExcelUtility.class
+com\qa\utility\Reporting.class
+com\qa\pages\ToursPages.class

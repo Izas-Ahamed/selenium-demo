@@ -1,0 +1,423 @@
+<html>
+<head>
+<title>TestNG:  End To End Testing</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>End To End Testing</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/5/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Sep 22 11:56:58 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>409 seconds (409943 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.testscripts.TC_SignUp_01.signUp()'><b>signUp</b><br>Test class: com.qa.testscripts.TC_SignUp_01<br>Parameters: Raja, M, 9999999999, 3@1.com, 123, Agent</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.qa.testscripts.TC_SignUp_01.signUp(TC_SignUp_01.java:64)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace125549276", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace125549276'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at com.qa.testscripts.TC_SignUp_01.signUp(TC_SignUp_01.java:64)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>5</td>
+<td>com.qa.testscripts.TC_SignUp_01@245b4bdc</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_SignUp_01.signUp()'><b>signUp</b><br>Test class: com.qa.testscripts.TC_SignUp_01<br>Parameters: Ijaz, S, 9999999999, 2@2.com, 123, Supplier</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.qa.testscripts.TC_SignUp_01.signUp(TC_SignUp_01.java:64)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace832828638", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace832828638'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at com.qa.testscripts.TC_SignUp_01.signUp(TC_SignUp_01.java:64)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>5</td>
+<td>com.qa.testscripts.TC_SignUp_01@245b4bdc</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_Flight_01.searchFlights()'><b>searchFlights</b><br>Test class: com.qa.testscripts.TC_Flight_01<br>Parameters: Oneway, Chennai, Hyderabad, , , 1, 0, 0, Economy</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.qa.testscripts.TC_Flight_01.searchFlights(TC_Flight_01.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1065713160", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1065713160'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at com.qa.testscripts.TC_Flight_01.searchFlights(TC_Flight_01.java:95)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>17</td>
+<td>com.qa.testscripts.TC_Flight_01@38c6f217</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_Visa_01.VisaTestCase()'><b>VisaTestCase</b><br>Test class: com.qa.testscripts.TC_Visa_01<br>Parameters: England, India, 11/26/21, Vachi, Raj, 11/20/21, demo1@gmail, 9180809803, Done soon<br/>
+<a href="#Output-1896545607" onClick='toggleBox("Output-1896545607", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1896545607" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1896545607">
+Title contains the word Submit Visa<br/>
+Visa is not availble for countrys<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.qa.testscripts.TC_Visa_01.VisaTestCase(TC_Visa_01.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1896545607", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1896545607'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at com.qa.testscripts.TC_Visa_01.VisaTestCase(TC_Visa_01.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>16</td>
+<td>com.qa.testscripts.TC_Visa_01@1189dd52</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_SignUp_01.signUp()'><b>signUp</b><br>Test class: com.qa.testscripts.TC_SignUp_01<br>Parameters: Monish, R, 9999999999, 1@1.com, 123, Customer</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.qa.testscripts.TC_SignUp_01.signUp(TC_SignUp_01.java:64)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace258447256", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace258447256'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertTrue(Assert.java:45)
+	at org.testng.Assert.assertTrue(Assert.java:55)
+	at com.qa.testscripts.TC_SignUp_01.signUp(TC_SignUp_01.java:64)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>6</td>
+<td>com.qa.testscripts.TC_SignUp_01@245b4bdc</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.testscripts.TC_Flight_01.searchFlights()'><b>searchFlights</b><br>Test class: com.qa.testscripts.TC_Flight_01<br>Parameters: RoundTrip, Delhi, YQY, 28-09-2021, 30-09-2021, 1, 0, 0, Economy</td>
+<td></td>
+<td>26</td>
+<td>com.qa.testscripts.TC_Flight_01@38c6f217</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_Visa_01.VisaTestCase()'><b>VisaTestCase</b><br>Test class: com.qa.testscripts.TC_Visa_01<br>Parameters: Denmark, Czech Republic, 10/4/21, Five, Arthur, 10/1/21, demo2@gmail.com, 7121312389, Approve soon<br/>
+<a href="#Output-1934234778" onClick='toggleBox("Output-1934234778", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1934234778" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1934234778">
+Title contains the word Submit Visa<br/>
+Visa available for both country<br/>
+The dates are same for visa<br/>
+</div>
+</td>
+<td></td>
+<td>35</td>
+<td>com.qa.testscripts.TC_Visa_01@1189dd52</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_Flight_01.searchFlights()'><b>searchFlights</b><br>Test class: com.qa.testscripts.TC_Flight_01<br>Parameters: Oneway, Delhi, Chennai, 25-09-2021, , 1, 0, 1, Economy</td>
+<td></td>
+<td>22</td>
+<td>com.qa.testscripts.TC_Flight_01@38c6f217</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_Visa_01.VisaTestCase()'><b>VisaTestCase</b><br>Test class: com.qa.testscripts.TC_Visa_01<br>Parameters: Estonia, Egypt, 1/4/22, Sergio, Roman, 12/2/21, demo3@gmail.com, 7121312356, Approve soon<br/>
+<a href="#Output-908299026" onClick='toggleBox("Output-908299026", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-908299026" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-908299026">
+Title contains the word Submit Visa<br/>
+Visa available for both country<br/>
+The dates are same for visa<br/>
+</div>
+</td>
+<td></td>
+<td>36</td>
+<td>com.qa.testscripts.TC_Visa_01@1189dd52</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_LoginAndLogout_01.login()'><b>login</b><br>Test class: com.qa.testscripts.TC_LoginAndLogout_01<br/>
+<a href="#Output-892262157" onClick='toggleBox("Output-892262157", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-892262157" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-892262157">
+Login Successful<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.qa.testscripts.TC_LoginAndLogout_01@399f45b1</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_LoginAndLogout_01.logout()'><b>logout</b><br>Test class: com.qa.testscripts.TC_LoginAndLogout_01<br/>
+<a href="#Output-1064528406" onClick='toggleBox("Output-1064528406", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1064528406" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1064528406">
+Logout Successful<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.qa.testscripts.TC_LoginAndLogout_01@399f45b1</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_Flight_01.searchFlights()'><b>searchFlights</b><br>Test class: com.qa.testscripts.TC_Flight_01<br>Parameters: RoundTrip, CJB, Hyderabad, 28-09-2021, 30-09-2021, 1, 1, 0, Business</td>
+<td></td>
+<td>28</td>
+<td>com.qa.testscripts.TC_Flight_01@38c6f217</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_Tours_01.tour()'><b>tour</b><br>Test class: com.qa.testscripts.TC_Tours_01<br>Parameters: Hyd, Kiranmayee, kiran123@gmail.com, Available dates for HonKong , 10/28/21, 2, 1<br/>
+<a href="#Output-1171538461" onClick='toggleBox("Output-1171538461", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1171538461" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1171538461">
+Hyderabad,India<br/>
+Hyder,United States<br/>
+Hyderabad,Pakistan<br/>
+Hydaburg,United States<br/>
+</div>
+</td>
+<td></td>
+<td>42</td>
+<td>com.qa.testscripts.TC_Tours_01@79e2c065</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_Hotel_01.HotelBooking()'><b>HotelBooking</b><br>Test class: com.qa.testscripts.TC_Hotel_01<br>Parameters: Hyd, 10/16/21, 10/18/21, 2, 4, 1, test@gmail.com<br/>
+<a href="#Output-698062929" onClick='toggleBox("Output-698062929", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-698062929" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-698062929">
+User is on Hotels Page<br/>
+User is on Hotels suggestion page<br/>
+</div>
+</td>
+<td></td>
+<td>28</td>
+<td>com.qa.testscripts.TC_Hotel_01@478190fc</td></tr>
+<tr>
+<td title='com.qa.testscripts.TC_Blogs_01.blogElement()'><b>blogElement</b><br>Test class: com.qa.testscripts.TC_Blogs_01<br>Parameters: Raj, demo@gmail.com, message<br/>
+<a href="#Output-1327718030" onClick='toggleBox("Output-1327718030", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1327718030" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1327718030">
+Contains the title blog<br/>
+redirected to the virgin gorda beaches and lobste page<br/>
+Blog Elements were present<br/>
+Contains the title offers<br/>
+redirected to the lunch discount page<br/>
+Offer Elements were present<br/>
+Contains the title contact<br/>
+</div>
+</td>
+<td></td>
+<td>49</td>
+<td>com.qa.testscripts.TC_Blogs_01@3a93b025</td></tr>
+</table><p>
+</body>
+</html>

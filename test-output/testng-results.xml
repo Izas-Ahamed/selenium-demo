@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="10" failed="5" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Logout Successful]]>
+    </line>
+    <line>
+      <![CDATA[User is on Hotels Page]]>
+    </line>
+    <line>
+      <![CDATA[User is on Hotels suggestion page]]>
+    </line>
+    <line>
+      <![CDATA[Hyderabad,India]]>
+    </line>
+    <line>
+      <![CDATA[Hyder,United States]]>
+    </line>
+    <line>
+      <![CDATA[Hyderabad,Pakistan]]>
+    </line>
+    <line>
+      <![CDATA[Hydaburg,United States]]>
+    </line>
+    <line>
+      <![CDATA[Contains the title blog]]>
+    </line>
+    <line>
+      <![CDATA[redirected to the virgin gorda beaches and lobste page]]>
+    </line>
+    <line>
+      <![CDATA[Blog Elements were present]]>
+    </line>
+    <line>
+      <![CDATA[Contains the title offers]]>
+    </line>
+    <line>
+      <![CDATA[redirected to the lunch discount page]]>
+    </line>
+    <line>
+      <![CDATA[Offer Elements were present]]>
+    </line>
+    <line>
+      <![CDATA[Contains the title contact]]>
+    </line>
+    <line>
+      <![CDATA[Title contains the word Submit Visa]]>
+    </line>
+    <line>
+      <![CDATA[Visa available for both country]]>
+    </line>
+    <line>
+      <![CDATA[The dates are same for visa]]>
+    </line>
+    <line>
+      <![CDATA[Title contains the word Submit Visa]]>
+    </line>
+    <line>
+      <![CDATA[Visa available for both country]]>
+    </line>
+    <line>
+      <![CDATA[The dates are same for visa]]>
+    </line>
+    <line>
+      <![CDATA[Title contains the word Submit Visa]]>
+    </line>
+    <line>
+      <![CDATA[Visa is not availble for countrys]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-09-22T11:56:58 IST" name="Suite" finished-at="2021-09-22T12:03:48 IST" duration-ms="409943">
+    <groups>
+    </groups>
+    <test started-at="2021-09-22T11:56:58 IST" name="End To End Testing" finished-at="2021-09-22T12:03:48 IST" duration-ms="409943">
+      <class name="com.qa.testscripts.TC_Tours_01">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.TC_Tours_01@79e2c065]" started-at="2021-09-22T12:00:16 IST" name="setUp" finished-at="2021-09-22T12:00:24 IST" duration-ms="7996" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://phptravels.net/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tour(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.TC_Tours_01@79e2c065]" started-at="2021-09-22T12:00:25 IST" name="tour" data-provider="excelsheet" finished-at="2021-09-22T12:01:07 IST" duration-ms="42725" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hyd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kiranmayee]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kiran123@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Available dates for HonKong ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10/28/21]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Hyderabad,India]]>
+            </line>
+            <line>
+              <![CDATA[Hyder,United States]]>
+            </line>
+            <line>
+              <![CDATA[Hyderabad,Pakistan]]>
+            </line>
+            <line>
+              <![CDATA[Hydaburg,United States]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tour -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testscripts.TC_Tours_01@79e2c065]" started-at="2021-09-22T12:01:07 IST" name="tearDown" finished-at="2021-09-22T12:01:08 IST" duration-ms="824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testscripts.TC_Tours_01 -->
+      <class name="com.qa.testscripts.TC_LoginAndLogout_01">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.TC_LoginAndLogout_01@399f45b1]" started-at="2021-09-22T11:57:29 IST" name="setUp" finished-at="2021-09-22T11:57:38 IST" duration-ms="9003" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://phptravels.net/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login()[pri:0, instance:com.qa.testscripts.TC_LoginAndLogout_01@399f45b1]" started-at="2021-09-22T11:57:38 IST" name="login" finished-at="2021-09-22T11:57:47 IST" duration-ms="8933" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="logout()[pri:0, instance:com.qa.testscripts.TC_LoginAndLogout_01@399f45b1]" started-at="2021-09-22T11:57:47 IST" name="logout" finished-at="2021-09-22T11:57:52 IST" depends-on-methods="com.qa.testscripts.TC_LoginAndLogout_01.login" duration-ms="4818" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testscripts.TC_LoginAndLogout_01@399f45b1]" started-at="2021-09-22T11:57:52 IST" name="tearDown" finished-at="2021-09-22T11:57:53 IST" duration-ms="725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testscripts.TC_LoginAndLogout_01 -->
+      <class name="com.qa.testscripts.TC_Flight_01">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.TC_Flight_01@38c6f217]" started-at="2021-09-22T11:57:53 IST" name="setUp" finished-at="2021-09-22T11:58:02 IST" duration-ms="9702" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://phptravels.net/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchFlights(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.TC_Flight_01@38c6f217]" started-at="2021-09-22T11:58:03 IST" name="searchFlights" data-provider="oneWayDataLoader" finished-at="2021-09-22T11:58:26 IST" duration-ms="22951" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Oneway]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[25-09-2021]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Economy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFlights -->
+        <test-method signature="searchFlights(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.TC_Flight_01@38c6f217]" started-at="2021-09-22T11:58:26 IST" name="searchFlights" data-provider="oneWayDataLoader" finished-at="2021-09-22T11:58:54 IST" duration-ms="28934" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RoundTrip]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CJB]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[28-09-2021]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[30-09-2021]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Business]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFlights -->
+        <test-method signature="searchFlights(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.TC_Flight_01@38c6f217]" started-at="2021-09-22T11:58:54 IST" name="searchFlights" data-provider="oneWayDataLoader" finished-at="2021-09-22T11:59:21 IST" duration-ms="26105" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RoundTrip]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[YQY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[28-09-2021]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[30-09-2021]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Economy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFlights -->
+        <test-method signature="searchFlights(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.TC_Flight_01@38c6f217]" started-at="2021-09-22T11:59:21 IST" name="searchFlights" data-provider="oneWayDataLoader" finished-at="2021-09-22T11:59:38 IST" duration-ms="17356" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Oneway]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chennai]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Economy]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.qa.testscripts.TC_Flight_01.searchFlights(TC_Flight_01.java:95)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFlights -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testscripts.TC_Flight_01@38c6f217]" started-at="2021-09-22T11:59:38 IST" name="tearDown" finished-at="2021-09-22T11:59:39 IST" duration-ms="846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testscripts.TC_Flight_01 -->
+      <class name="com.qa.testscripts.TC_Blogs_01">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.TC_Blogs_01@3a93b025]" started-at="2021-09-22T12:01:08 IST" name="setUp" finished-at="2021-09-22T12:01:19 IST" duration-ms="10937" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://phptravels.net/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="blogElement(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.TC_Blogs_01@3a93b025]" started-at="2021-09-22T12:01:19 IST" name="blogElement" data-provider="excelData" finished-at="2021-09-22T12:02:08 IST" duration-ms="49121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[message]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Contains the title blog]]>
+            </line>
+            <line>
+              <![CDATA[redirected to the virgin gorda beaches and lobste page]]>
+            </line>
+            <line>
+              <![CDATA[Blog Elements were present]]>
+            </line>
+            <line>
+              <![CDATA[Contains the title offers]]>
+            </line>
+            <line>
+              <![CDATA[redirected to the lunch discount page]]>
+            </line>
+            <line>
+              <![CDATA[Offer Elements were present]]>
+            </line>
+            <line>
+              <![CDATA[Contains the title contact]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- blogElement -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testscripts.TC_Blogs_01@3a93b025]" started-at="2021-09-22T12:02:08 IST" name="tearDown" finished-at="2021-09-22T12:02:09 IST" duration-ms="753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testscripts.TC_Blogs_01 -->
+      <class name="com.qa.testscripts.TC_SignUp_01">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.TC_SignUp_01@245b4bdc]" started-at="2021-09-22T11:56:58 IST" name="setUp" finished-at="2021-09-22T11:57:09 IST" duration-ms="10552" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://phptravels.net/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="signUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.TC_SignUp_01@245b4bdc]" started-at="2021-09-22T11:57:10 IST" name="signUp" data-provider="AuthDataProvider" finished-at="2021-09-22T11:57:17 IST" duration-ms="6948" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Monish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[R]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9999999999]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1@1.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Customer]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.qa.testscripts.TC_SignUp_01.signUp(TC_SignUp_01.java:64)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method signature="signUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.TC_SignUp_01@245b4bdc]" started-at="2021-09-22T11:57:17 IST" name="signUp" data-provider="AuthDataProvider" finished-at="2021-09-22T11:57:23 IST" duration-ms="5286" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ijaz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9999999999]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2@2.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Supplier]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.qa.testscripts.TC_SignUp_01.signUp(TC_SignUp_01.java:64)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method signature="signUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.TC_SignUp_01@245b4bdc]" started-at="2021-09-22T11:57:23 IST" name="signUp" data-provider="AuthDataProvider" finished-at="2021-09-22T11:57:28 IST" duration-ms="5900" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Raja]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9999999999]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3@1.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Agent]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.qa.testscripts.TC_SignUp_01.signUp(TC_SignUp_01.java:64)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testscripts.TC_SignUp_01@245b4bdc]" started-at="2021-09-22T11:57:28 IST" name="tearDown" finished-at="2021-09-22T11:57:29 IST" duration-ms="764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testscripts.TC_SignUp_01 -->
+      <class name="com.qa.testscripts.TC_Visa_01">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.TC_Visa_01@1189dd52]" started-at="2021-09-22T12:02:09 IST" name="setUp" finished-at="2021-09-22T12:02:18 IST" duration-ms="9363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://phptravels.net/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VisaTestCase(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.TC_Visa_01@1189dd52]" started-at="2021-09-22T12:02:19 IST" name="VisaTestCase" data-provider="VisaInfos" finished-at="2021-09-22T12:02:54 IST" duration-ms="35127" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Denmark]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Czech Republic]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10/4/21]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Five]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Arthur]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[10/1/21]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[demo2@gmail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[7121312389]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Approve soon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Title contains the word Submit Visa]]>
+            </line>
+            <line>
+              <![CDATA[Visa available for both country]]>
+            </line>
+            <line>
+              <![CDATA[The dates are same for visa]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VisaTestCase -->
+        <test-method signature="VisaTestCase(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.TC_Visa_01@1189dd52]" started-at="2021-09-22T12:02:54 IST" name="VisaTestCase" data-provider="VisaInfos" finished-at="2021-09-22T12:03:31 IST" duration-ms="36962" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Estonia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Egypt]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1/4/22]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sergio]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Roman]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[12/2/21]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[demo3@gmail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[7121312356]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Approve soon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Title contains the word Submit Visa]]>
+            </line>
+            <line>
+              <![CDATA[Visa available for both country]]>
+            </line>
+            <line>
+              <![CDATA[The dates are same for visa]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VisaTestCase -->
+        <test-method signature="VisaTestCase(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.TC_Visa_01@1189dd52]" started-at="2021-09-22T12:03:31 IST" name="VisaTestCase" data-provider="VisaInfos" finished-at="2021-09-22T12:03:47 IST" duration-ms="16527" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[England]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11/26/21]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Vachi]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Raj]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[11/20/21]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[demo1@gmail]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9180809803]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Done soon]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.qa.testscripts.TC_Visa_01.VisaTestCase(TC_Visa_01.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Title contains the word Submit Visa]]>
+            </line>
+            <line>
+              <![CDATA[Visa is not availble for countrys]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VisaTestCase -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testscripts.TC_Visa_01@1189dd52]" started-at="2021-09-22T12:03:47 IST" name="tearDown" finished-at="2021-09-22T12:03:48 IST" duration-ms="818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testscripts.TC_Visa_01 -->
+      <class name="com.qa.testscripts.TC_Hotel_01">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.TC_Hotel_01@478190fc]" started-at="2021-09-22T11:59:39 IST" name="setUp" finished-at="2021-09-22T11:59:47 IST" duration-ms="8062" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://phptravels.net/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="HotelBooking(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscripts.TC_Hotel_01@478190fc]" started-at="2021-09-22T11:59:47 IST" name="HotelBooking" data-provider="excelsheet" finished-at="2021-09-22T12:00:16 IST" duration-ms="28501" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hyd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10/16/21]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10/18/21]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[test@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[User is on Hotels Page]]>
+            </line>
+            <line>
+              <![CDATA[User is on Hotels suggestion page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- HotelBooking -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testscripts.TC_Hotel_01@478190fc]" started-at="2021-09-22T12:00:16 IST" name="tearDown" finished-at="2021-09-22T12:00:16 IST" duration-ms="841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testscripts.TC_Hotel_01 -->
+    </test> <!-- End To End Testing -->
+  </suite> <!-- Suite -->
+</testng-results>
